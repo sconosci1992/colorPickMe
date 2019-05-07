@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #232323;
+	font: sans-serif;
+	text-transform: uppercase;
+}
+
+.selected {
+	background-color: rgb(84, 82, 200);
+}
+
+.secondNav {
+	background: white;
+	text-align: center;
+	color: black;
+}
+
+button {
+	display: inline-block;
+}
+
+.secondNav > span {
+	color: black;
+}
+
+.square {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 2rem;
+}
+
+#container {
+	max-width: 44.4444444444%;
+	margin: 0 auto;
+}
+
+h1 {
+	font-weight: 300;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	background-color: rgb(20, 130, 240);
+}
+
+h1 > span {
+	font-size: 3rem;
+	display: block;
+}
+
+span {
+	color: white;
+}
+
+.harder {
+	display: hidden;
+}
+
