@@ -1,16 +1,18 @@
 * {
 	margin: 0;
 	padding: 0;
+
 }
 
 body {
 	background-color: #232323;
-	font: sans-serif;
 	text-transform: uppercase;
+	font-family: Arial;
 }
 
 .selected {
-	background-color: rgb(84, 82, 200);
+	background-color: steelblue;
+	color: white;
 }
 
 .secondNav {
@@ -20,11 +22,28 @@ body {
 }
 
 button {
-	display: inline-block;
+	border-style: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	font-size: inherit;
+	letter-spacing: 1px;
+	transition: all .3s;
+	outline: none;
+}
+
+button:hover {
+	background-color: steelblue;
+	color: white;
+
 }
 
 .secondNav > span {
-	color: black;
+	color: steelblue;
+	display: inline-block;
+	width: 24%;
 }
 
 .square {
@@ -34,19 +53,21 @@ button {
 	float: left;
 	margin: 1.66%;
 	border-radius: 2rem;
+	transition: background .3s;
 }
 
 #container {
 	max-width: 44.4444444444%;
-	margin: 0 auto;
+	margin: 20px auto;
 }
 
 h1 {
-	font-weight: 300;
+	font-weight: normal;
 	color: white;
 	margin: 0 auto;
 	text-align: center;
-	background-color: rgb(20, 130, 240);
+	background-color: steelblue;
+	padding: 1rem 0;
 }
 
 h1 > span {
@@ -61,4 +82,3 @@ span {
 .harder {
 	display: hidden;
 }
-
